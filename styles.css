@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+   
+    background-image: url(bg.avif);
+    justify-content: space-around;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0f0101;
+    padding: 10px ;
+    text-align: center;
+    background-position:center ;
+    
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    padding: 1px 5px;
+    color: #080808;
+    text-decoration: none;
+    font-size:150%;
+}
+.nav ul li a:hover {
+    border-bottom: 1px solid #000;
+    transition: 0.8s;
+    letter-spacing: 3px;
+}
+
+.img{
+    width: 1%;
+    height: 1%;
+    right: 100px;
+    bottom: 0;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+#about {
+    
+    margin-bottom: 20px;
+    background-image: url(bg1.avif);
+    background-size: cover;
+    padding: 0.5px;
+    
+}
+#works {
+    
+    margin-bottom: 20px;
+    background-image: url(bg4.avif);
+    background-size: cover;
+    padding: 10px;
+    
+}
+
+
+
+#contact {
+    
+    margin-bottom: 20px;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    padding: 130px;
+    
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #171046;
+    color: #9ce0f0;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
